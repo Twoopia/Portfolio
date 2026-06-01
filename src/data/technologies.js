@@ -26,7 +26,6 @@ export const techGroups = [
     category: 'IA & Integrações',
     color: '#9D6EFF',
     items: [
-      { name: 'OpenAI API' },
       { name: 'WebSocket' },
       { name: 'REST API' },
     ],
