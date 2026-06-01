@@ -1,0 +1,20 @@
+export const personal = {
+  name: 'Rafael',
+  lastName: 'Becker Carbonera',
+  role: 'Estudante de GTI — IFSC',
+  focuses: ['Análise de Dados', 'Gestão de TI', 'Desenvolvimento'],
+  bio: 'Estudante de Gestão da Tecnologia da Informação no IFSC (3ª fase), com interesse em análise e modelagem de dados, gestão de projetos de TI e desenvolvimento de sistemas. Perfil analítico e proativo, com inglês avançado e facilidade de aprendizado.',
+  bioExtra: 'Tenho foco em apoio à tomada de decisão baseada em dados, qualidade de software e boas práticas de gestão. Busco estágio para colocar em prática o que aprendo no IFSC e contribuir com soluções reais para a área de TI.',
+  email: 'rafabcarbonera@gmail.com',
+  github: 'https://github.com/Twoopia',
+  linkedin: 'https://www.linkedin.com/in/rafael-becker-634b3536b/',
+  whatsapp: '5548991811826',
+  location: 'Florianópolis, SC',
+  institution: 'IFSC',
+  available: true,
+  stats: [
+    { label: 'Projetos', value: '7' },
+    { label: 'Tecnologias', value: '15+' },
+    { label: 'Inglês', value: 'Avançado' },
+  ],
+}

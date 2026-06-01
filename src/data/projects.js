@@ -1,0 +1,119 @@
+// Bento grid — 3 colunas no desktop:
+// Row 1: API de Usuários(2) + Monitor(1)
+// Row 2: Inventário(1)      + SLA(2)
+// Row 3: Chatbot(1)         + Dashboard(2)
+// Row 4: Convite Digital(3) — largura total
+export const projects = [
+  {
+    id: 1,
+    title: 'API de Gerenciamento de Usuários',
+    description:
+      'API REST profissional com autenticação JWT, controle de acesso por roles (user/admin), CRUD completo, hash bcrypt, middleware de logging, suite de testes com pytest e coleção Postman.',
+    tags: ['Python', 'FastAPI', 'SQLAlchemy', 'JWT', 'pytest'],
+    status: 'concluido',
+    category: 'Backend',
+    span: 2,
+    icon: 'server',
+    color: '#7C3AED',
+    github: 'https://github.com/Twoopia/user-management-api',
+    demo: null,
+  },
+  {
+    id: 2,
+    title: 'Monitor de Infraestrutura',
+    description:
+      'Monitor em tempo real com verificações HTTP, TCP e ping, dashboard web com auto-refresh, alertas no Discord via webhook e histórico persistido em SQLite.',
+    tags: ['Python', 'FastAPI', 'SQLite', 'Docker', 'Discord'],
+    status: 'concluido',
+    category: 'Infraestrutura',
+    span: 1,
+    icon: 'activity',
+    color: '#4ADE80',
+    github: 'https://github.com/Twoopia/monitor-de-infraestrutura',
+    demo: 'https://twoopia.github.io/monitor-de-infraestrutura/',
+  },
+  {
+    id: 3,
+    title: 'Inventário de Ativos de TI',
+    description:
+      'Sistema de gerenciamento de ativos com autenticação JWT, controle de status, histórico de movimentações, upload de imagem, exportação CSV/Excel e API documentada via Swagger.',
+    tags: ['Python', 'FastAPI', 'PostgreSQL', 'Docker', 'JWT'],
+    status: 'concluido',
+    category: 'Backend',
+    span: 1,
+    icon: 'monitor',
+    color: '#9D6EFF',
+    github: 'https://github.com/Twoopia/Inventario-de-ativos-de-TI',
+    demo: 'https://twoopia.github.io/Inventario-de-ativos-de-TI/'
+  },
+  {
+    id: 4,
+    title: 'Relatório SLA Automático',
+    description:
+      'Gera relatórios PDF profissionais a partir de CSV de chamados de TI, com cálculo de SLA por prioridade, KPIs, 6 tipos de gráficos (Matplotlib) e listagem de chamados atrasados.',
+    tags: ['Python', 'Matplotlib', 'ReportLab', 'Pandas', 'CSV'],
+    status: 'concluido',
+    category: 'Automação',
+    span: 2,
+    icon: 'file-bar-chart',
+    color: '#FBBF24',
+    github: 'https://github.com/Twoopia/relatorio-sla-automatico',
+    demo: '/relatorio_sla.pdf',
+  },
+  {
+    id: 5,
+    title: 'Chatbot Help Desk com IA',
+    description:
+      'Chatbot de suporte técnico com streaming em tempo real via WebSocket, FAQ automático, histórico de sessões e integração com Claude (Anthropic) e GPT (OpenAI).',
+    tags: ['Python', 'FastAPI', 'WebSocket', 'Claude API', 'OpenAI'],
+    status: 'concluido',
+    category: 'IA',
+    span: 1,
+    icon: 'bot',
+    color: '#F87171',
+    github: 'https://github.com/Twoopia/chatbot-helpdesk-ia',
+    demo: 'https://twoopia.github.io/chatbot-helpdesk-ia/'
+  },
+  {
+    id: 6,
+    title: 'Dashboard de Chamados',
+    description:
+      'Dashboard web completo para gestão de chamados de TI: CRUD, filtros combinados, gráficos interativos (Chart.js), paginação, persistência via LocalStorage e design dark responsivo — sem dependências de backend.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Chart.js'],
+    status: 'concluido',
+    category: 'Frontend',
+    span: 2,
+    icon: 'layout-dashboard',
+    color: '#C9B99A',
+    github: 'https://github.com/Twoopia/dashboard-chamados',
+    demo: 'https://twoopia.github.io/dashboard-chamados',
+  },
+  {
+    id: 8,
+    title: 'Sistema de Onboarding Corporativo',
+    description:
+      'Automação completa de onboarding de funcionários: cadastro com geração automática de credenciais, checklists de integração por área (TI, RH, Facilities), controle de equipamentos e dashboard de KPIs em tempo real.',
+    tags: ['Python', 'FastAPI', 'React', 'SQLAlchemy', 'Docker'],
+    status: 'concluido',
+    category: 'Full Stack',
+    span: 2,
+    icon: 'users',
+    color: '#38BDF8',
+    github: 'https://github.com/Twoopia/linitech-onboarding',
+    demo: 'https://linitech-onboarding.vercel.app/',
+  },
+  {
+    id: 7,
+    title: 'Convite Digital com PIX',
+    description:
+      'Convite digital para evento com fluxo multi-step de confirmação de presença, integração com pagamento via PIX, upload de comprovante e registro automático em Google Sheets via Google Apps Script.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Google Apps Script', 'Google Sheets'],
+    status: 'concluido',
+    category: 'Automação',
+    span: 3,
+    icon: 'ticket',
+    color: '#4ADE80',
+    github: 'https://github.com/Twoopia/convite-demo',
+    demo: 'https://twoopia.github.io/convite-demo/',
+  },
+]
