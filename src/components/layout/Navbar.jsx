@@ -1,12 +1,11 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Terminal, X, Menu } from 'lucide-react'
+import { Globe, X, Menu } from 'lucide-react'
 
 const navLinks = [
   { href: '#sobre', label: 'Sobre' },
   { href: '#projetos', label: 'Projetos' },
   { href: '#tecnologias', label: 'Tecnologias' },
-  { href: '#contato', label: 'Contato' },
 ]
 
 export default function Navbar() {
@@ -33,7 +32,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#hero" className="flex items-center gap-2 group">
           <div className="w-8 h-8 rounded-lg bg-[#7C3AED]/15 border border-[#7C3AED]/25 flex items-center justify-center transition-all duration-500 group-hover:bg-[#7C3AED]/25 group-hover:border-[#7C3AED]/40">
-            <Terminal size={13} className="text-[#9D6EFF]" />
+            <Globe size={13} className="text-[#9D6EFF]" />
           </div>
         </a>
 
