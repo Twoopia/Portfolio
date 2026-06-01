@@ -2,31 +2,14 @@ import { motion } from 'framer-motion'
 import AnimatedSection from '../ui/AnimatedSection'
 import { techGroups } from '../../data/technologies'
 
-const levelColors = {
-  'básico': { text: '#6B5E4E', dot: '#6B5E4E' },
-  'intermediário': { text: '#9D6EFF', dot: '#9D6EFF' },
-  'avançado': { text: '#4ADE80', dot: '#4ADE80' },
-}
-
-function TechItem({ name, level }) {
-  const colors = levelColors[level] || levelColors['básico']
-
+function TechItem({ name }) {
   return (
     <motion.div
       whileHover={{ y: -2, borderColor: 'rgba(124,58,237,0.25)' }}
       transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-      className="card flex items-center justify-between gap-3 px-4 py-3"
+      className="card flex items-center px-4 py-3"
     >
       <span className="text-[#C9B99A] text-sm font-medium">{name}</span>
-      <div className="flex items-center gap-1.5 flex-shrink-0">
-        <span
-          className="w-1.5 h-1.5 rounded-full"
-          style={{ background: colors.dot }}
-        />
-        <span className="text-[10px] uppercase tracking-wider" style={{ color: colors.text }}>
-          {level}
-        </span>
-      </div>
     </motion.div>
   )
 }
@@ -43,21 +26,6 @@ export default function Technologies() {
           <p className="text-[#6B5E4E] text-sm mt-3 max-w-md leading-relaxed">
             Ferramentas e tecnologias que utilizo no dia a dia dos meus projetos.
           </p>
-        </AnimatedSection>
-
-        {/* Legend */}
-        <AnimatedSection delay={0.05} className="flex items-center gap-6 mb-10">
-          {Object.entries(levelColors).map(([level, colors]) => (
-            <div key={level} className="flex items-center gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full" style={{ background: colors.dot }} />
-              <span
-                className="text-[10px] uppercase tracking-wider"
-                style={{ color: colors.text }}
-              >
-                {level}
-              </span>
-            </div>
-          ))}
         </AnimatedSection>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -88,7 +56,7 @@ export default function Technologies() {
                       delay: gi * 0.06 + ii * 0.05,
                     }}
                   >
-                    <TechItem name={item.name} level={item.level} />
+                    <TechItem name={item.name} />
                   </motion.div>
                 ))}
               </div>
