@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { ArrowDown, Github, Linkedin, Mail, MessageCircle } from 'lucide-react'
 import { personal } from '../../data/personal'
+import { projects } from '../../data/projects'
 
 const roles = [
   'Análise e Modelagem de Dados',
@@ -199,7 +200,7 @@ export default function Hero() {
                   className="card p-4 text-center"
                 >
                   <div className="font-syne font-bold text-xl text-[#E8D5B5] mb-0.5">
-                    {stat.value}
+                    {stat.label === 'Projetos' ? projects.length : stat.value}
                   </div>
                   <div className="text-[10px] text-[#6B5E4E] uppercase tracking-wider">
                     {stat.label}
