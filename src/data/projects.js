@@ -113,7 +113,7 @@ export const projects = [
     span: 1,
     icon: 'code-2',
     color: '#60A5FA',
-    github: 'https://github.com/Twoopia',
+    github: 'https://github.com/Twoopia/trabalho-poo',
     demo: null,
   },
   {
