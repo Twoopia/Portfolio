@@ -13,7 +13,7 @@ export const personal = {
   institution: 'IFSC',
   available: true,
   stats: [
-    { label: 'Projetos', value: '8' },
+    { label: 'Projetos', value: '9' },
     { label: 'Tecnologias', value: '15+' },
     { label: 'Inglês', value: 'Avançado' },
   ],
