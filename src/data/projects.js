@@ -103,6 +103,20 @@ export const projects = [
     demo: 'https://linitech-onboarding.vercel.app/',
   },
   {
+    id: 9,
+    title: 'Gestão de Freelancers',
+    description:
+      'Sistema desktop de gestão de freelancers em Java com padrão MVC e DAO: CRUD completo de clientes, freelancers e projetos, sistema de avaliações com notas e comentários, e persistência em MySQL via JDBC.',
+    tags: ['Java', 'MySQL', 'JDBC', 'POO', 'MVC'],
+    status: 'concluido',
+    category: 'Backend',
+    span: 1,
+    icon: 'code-2',
+    color: '#60A5FA',
+    github: 'https://github.com/Twoopia',
+    demo: null,
+  },
+  {
     id: 7,
     title: 'Convite Digital com PIX',
     description:

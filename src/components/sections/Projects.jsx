@@ -8,6 +8,7 @@ import {
   Activity,
   Ticket,
   Users,
+  Code2,
   Github,
   ExternalLink,
 } from 'lucide-react'
@@ -23,6 +24,7 @@ const iconMap = {
   activity: Activity,
   ticket: Ticket,
   users: Users,
+  'code-2': Code2,
 }
 
 const statusConfig = {
