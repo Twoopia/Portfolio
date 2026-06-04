@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { ArrowDown, Github, Linkedin, Mail, MessageCircle } from 'lucide-react'
+import { ArrowDown, Github, Linkedin, Mail, MessageCircle, MapPin } from 'lucide-react'
 import { personal } from '../../data/personal'
 import { projects } from '../../data/projects'
 
@@ -185,7 +185,10 @@ export default function Hero() {
                   {personal.name} {personal.lastName}
                 </div>
                 <div className="text-[#6B5E4E] text-[11px] mt-0.5">{personal.institution} — {personal.institutionRole}</div>
-                <div className="text-[#6B5E4E] text-[10px] mt-0.5">📍 {personal.location}</div>
+                <div className="text-[#6B5E4E] text-[10px] mt-0.5 flex items-center gap-1">
+                  <MapPin size={9} />
+                  {personal.location}
+                </div>
               </div>
             </motion.div>
 
@@ -199,7 +202,7 @@ export default function Hero() {
                   transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.58 + i * 0.08 }}
                   className="card p-4 text-center"
                 >
-                  <div className="font-syne font-bold text-xl text-[#E8D5B5] mb-0.5">
+                  <div className={`font-syne font-bold text-[#E8D5B5] mb-0.5 ${String(stat.label === 'Projetos' ? projects.length : stat.value).length > 4 ? 'text-base' : 'text-xl'}`}>
                     {stat.label === 'Projetos' ? projects.length : stat.value}
                   </div>
                   <div className="text-[10px] text-[#6B5E4E] uppercase tracking-wider">
