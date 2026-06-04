@@ -51,7 +51,7 @@ function Typewriter() {
 const socialLinks = [
   { href: personal.github, icon: Github, label: 'GitHub' },
   { href: personal.linkedin, icon: Linkedin, label: 'LinkedIn' },
-  { href: `mailto:${personal.email}`, icon: Mail, label: 'E-mail' },
+  { href: personal.gmailCompose, icon: Mail, label: 'E-mail' },
   {
     href: `https://wa.me/${personal.whatsapp}`,
     icon: MessageCircle,
@@ -184,7 +184,7 @@ export default function Hero() {
                 <div className="font-syne font-bold text-[#E8D5B5] text-sm truncate">
                   {personal.name} {personal.lastName}
                 </div>
-                <div className="text-[#6B5E4E] text-[11px] mt-0.5">{personal.institution} — {personal.role.replace('Estudante de GTI — IFSC', 'Gestão de TI')}</div>
+                <div className="text-[#6B5E4E] text-[11px] mt-0.5">{personal.institution} — {personal.institutionRole}</div>
                 <div className="text-[#6B5E4E] text-[10px] mt-0.5">📍 {personal.location}</div>
               </div>
             </motion.div>

@@ -7,7 +7,7 @@ const contactLinks = [
   {
     label: 'E-mail',
     value: personal.email,
-    href: `https://mail.google.com/mail/?view=cm&to=${personal.email}`,
+    href: personal.gmailCompose,
     icon: Mail,
     color: '#7C3AED',
     desc: 'Respondo em até 24h',
@@ -116,7 +116,7 @@ export default function Contact() {
             Prefere enviar uma mensagem direta?
           </p>
           <a
-            href={`https://mail.google.com/mail/?view=cm&to=${personal.email}`}
+            href={personal.gmailCompose}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-flex"
