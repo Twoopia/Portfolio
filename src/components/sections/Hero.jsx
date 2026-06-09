@@ -128,13 +128,6 @@ export default function Hero() {
               <Typewriter />
             </motion.div>
 
-            <motion.p
-              variants={itemVariants}
-              className="text-[#C9B99A] text-base leading-relaxed mb-9 max-w-[480px]"
-            >
-              {personal.bio}
-            </motion.p>
-
             <motion.div variants={itemVariants} className="flex flex-wrap gap-3 mb-9">
               <a href="#projetos" className="btn-primary">
                 Ver Projetos
