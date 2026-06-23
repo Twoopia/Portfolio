@@ -76,7 +76,7 @@ export default function Hero() {
       className="min-h-screen flex items-center relative overflow-hidden pt-16"
     >
       {/* Background grid */}
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.018)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.018)_1px,transparent_1px)] bg-[size:72px_72px] [mask-image:radial-gradient(ellipse_80%_60%_at_50%_50%,black,transparent)]" />
+      <div className="absolute inset-0 pointer-events-none bg-[linear-gradient(rgba(255,255,255,0.018)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.018)_1px,transparent_1px)] bg-[size:72px_72px] [mask-image:radial-gradient(ellipse_80%_60%_at_50%_50%,black,transparent)]" />
 
       {/* Glow orbs */}
       <div className="absolute top-1/4 left-1/3 w-[480px] h-[480px] bg-[#7C3AED]/[0.04] rounded-full blur-3xl pointer-events-none" />
