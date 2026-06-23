@@ -57,22 +57,6 @@ npm run build
 npm run preview  # visualizar build localmente
 ```
 
-## Personalização
-
-### Informações pessoais
-Edite [src/data/personal.js](src/data/personal.js):
-```js
-export const personal = {
-  name: 'Rafael',
-  lastName: 'Becker Carbonera',
-  email: 'rafabcarbonera@gmail.com',
-  github: 'https://github.com/Twoopia',
-  linkedin: 'https://linkedin.com/in/SEU-USUARIO', // ← atualize aqui
-  whatsapp: '5548991811826',
-  // ...
-}
-```
-
 ### Seus projetos
 Edite [src/data/projects.js](src/data/projects.js). Cada projeto suporta:
 - `span: 1` — card normal (1 coluna)
