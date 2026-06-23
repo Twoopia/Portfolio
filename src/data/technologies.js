@@ -49,6 +49,7 @@ export const techGroups = [
       { name: 'MySQL Workbench' },
       { name: 'Chart.js' },
       { name: 'Matplotlib / ReportLab' },
+      { name: 'Power BI' },
     ],
   },
 ]
