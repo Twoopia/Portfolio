@@ -5,7 +5,7 @@ export const personal = {
   institutionRole: 'Gestão de TI',
   gmailCompose: `https://mail.google.com/mail/?view=cm&to=rafabcarbonera@gmail.com`,
   focuses: ['Análise de Dados', 'Gestão de TI', 'Desenvolvimento'],
-  bio: 'Estudante de Gestão da Tecnologia da Informação no IFSC (3ª fase), com interesse em análise e modelagem de dados, gestão de projetos de TI e desenvolvimento de sistemas. Perfil analítico e proativo, com inglês avançado e facilidade de aprendizado.',
+  bio: 'Estudante de Gestão da Tecnologia da Informação no IFSC (4ª fase), com interesse em análise e modelagem de dados, gestão de projetos de TI e desenvolvimento de sistemas. Perfil analítico e proativo, com inglês avançado e facilidade de aprendizado.',
   bioExtra: 'Tenho foco em apoio à tomada de decisão baseada em dados, qualidade de software e boas práticas de gestão. Busco estágio para colocar em prática o que aprendo no IFSC e contribuir com soluções reais para a área de TI.',
   email: 'rafabcarbonera@gmail.com',
   github: 'https://github.com/Twoopia',
@@ -15,7 +15,7 @@ export const personal = {
   institution: 'IFSC',
   available: true,
   stats: [
-    { label: 'Projetos', value: '9' },
+    { label: 'Projetos', value: '11' },
     { label: 'Tecnologias', value: '15+' },
     { label: 'Inglês', value: 'Avançado' },
   ],

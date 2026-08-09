@@ -130,4 +130,32 @@ export const projects = [
     github: 'https://github.com/Twoopia/convite-demo',
     demo: 'https://twoopia.github.io/convite-demo/',
   },
+  {
+    id: 10,
+    title: 'Juriscan — Triagem de Risco Jurídico com IA',
+    description:
+      'MVP que analisa contratos de prestação de serviço com IA (RAG via pgvector + LLM Groq/Gemini) para sinalizar cláusulas de risco, prazos e obrigações, apoiando a revisão humana. Validado com entrevistas e depoimentos de alunos de Direito sobre contratos reais.',
+    tags: ['Python', 'FastAPI', 'PostgreSQL', 'pgvector', 'RAG', 'LLM', 'Docker'],
+    status: 'desenvolvimento',
+    category: 'IA',
+    span: 2,
+    icon: 'scale',
+    color: '#9D6EFF',
+    github: null,
+    demo: null,
+  },
+  {
+    id: 11,
+    title: 'SmartExpense — Controle Financeiro Pessoal',
+    description:
+      'Sistema web full stack de gestão financeira pessoal com CRUD de receitas e despesas, dashboard com saldo em tempo real e relatórios mensais em gráficos interativos. Desenvolvido com metodologia Scrum na disciplina de Gerência de Projetos do IFSC.',
+    tags: ['Python', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'JWT', 'Chart.js'],
+    status: 'concluido',
+    category: 'Full Stack',
+    span: 1,
+    icon: 'wallet',
+    color: '#4ADE80',
+    github: 'https://github.com/Twoopia/Calculadora-de-gastos',
+    demo: 'https://calculadora-de-gastos-eight.vercel.app/pages/login.html',
+  },
 ]

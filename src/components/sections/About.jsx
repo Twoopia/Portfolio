@@ -6,7 +6,7 @@ const highlights = [
   {
     icon: GraduationCap,
     title: 'Formação',
-    desc: 'IFSC — Gestão da TI, 3ª fase',
+    desc: 'IFSC — Gestão da TI, 4ª fase',
     color: '#9D6EFF',
   },
   {

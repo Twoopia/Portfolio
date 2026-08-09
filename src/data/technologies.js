@@ -9,6 +9,9 @@ export const techGroups = [
       { name: 'JavaScript' },
       { name: 'Java' },
       { name: 'C++' },
+      { name: 'Pydantic' },
+      { name: 'JWT' },
+      { name: 'HTMX' },
     ],
   },
   {
@@ -20,6 +23,8 @@ export const techGroups = [
       { name: 'MySQL' },
       { name: 'SQLAlchemy' },
       { name: 'Alembic' },
+      { name: 'pgvector' },
+      { name: 'Neon' },
     ],
   },
   {
@@ -28,6 +33,9 @@ export const techGroups = [
     items: [
       { name: 'WebSocket' },
       { name: 'REST API' },
+      { name: 'RAG' },
+      { name: 'Groq' },
+      { name: 'Gemini' },
     ],
   },
   {
@@ -38,6 +46,7 @@ export const techGroups = [
       { name: 'Linux (Ubuntu)' },
       { name: 'GitHub' },
       { name: 'Cisco Packet Tracer' },
+      { name: 'Vercel' },
     ],
   },
   {

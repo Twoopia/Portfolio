@@ -9,6 +9,8 @@ import {
   Ticket,
   Users,
   Code2,
+  Scale,
+  Wallet,
   Github,
   ExternalLink,
 } from 'lucide-react'
@@ -25,6 +27,8 @@ const iconMap = {
   ticket: Ticket,
   users: Users,
   'code-2': Code2,
+  scale: Scale,
+  wallet: Wallet,
 }
 
 const statusConfig = {
@@ -113,16 +117,18 @@ function ProjectCard({ project }) {
               Demo
             </a>
           )}
-          <a
-            href={project.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-            title="Ver no GitHub"
-            className="p-1.5 text-[#6B5E4E] hover:text-[#C9B99A] transition-colors duration-300"
-          >
-            <Github size={15} />
-          </a>
+          {project.github && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              title="Ver no GitHub"
+              className="p-1.5 text-[#6B5E4E] hover:text-[#C9B99A] transition-colors duration-300"
+            >
+              <Github size={15} />
+            </a>
+          )}
         </div>
       </div>
     </motion.div>
