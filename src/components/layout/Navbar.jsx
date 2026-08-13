@@ -6,6 +6,7 @@ const navLinks = [
   { href: '#sobre', label: 'Sobre' },
   { href: '#projetos', label: 'Projetos' },
   { href: '#tecnologias', label: 'Tecnologias' },
+  { href: '#certificacoes', label: 'Certificações' },
 ]
 
 export default function Navbar() {

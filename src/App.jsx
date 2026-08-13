@@ -4,6 +4,7 @@ import Hero from './components/sections/Hero'
 import About from './components/sections/About'
 import Projects from './components/sections/Projects'
 import Technologies from './components/sections/Technologies'
+import Certifications from './components/sections/Certifications'
 import Contact from './components/sections/Contact'
 
 function Grain() {
@@ -35,6 +36,7 @@ export default function App() {
         <About />
         <Projects />
         <Technologies />
+        <Certifications />
         <Contact />
       </main>
       <Footer />
